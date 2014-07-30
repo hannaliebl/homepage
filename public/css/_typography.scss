@@ -66,3 +66,12 @@ blockquote {
   padding: 20px;
   border-left: 10px solid $secondarycolor;
 }
+
+#main-nav {
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  a:hover {
+    color: darken($primary-nav-color, 5%);
+  }
+}
