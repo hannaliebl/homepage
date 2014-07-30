@@ -1,0 +1,26 @@
+$body-bg: #f6f6f6;
+$primary-page-color: #6DC9AE;
+$secondarycolor: #2dc09b;
+
+.primary-color {
+  background: $primary-page-color;
+}
+
+.navigation {
+  ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    li {
+      float: left;
+      display: block;
+      padding: 10px 15px;
+    }
+  }
+}
+
+#main-nav {
+  margin: 0 auto;
+  text-align: center;
+}
