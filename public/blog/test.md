@@ -8,4 +8,19 @@ function sayHi(message) {
 }
 ```
 
-The end.
+HTML:
+
+```markup
+<div class="test">
+    <h1>HELLO!</h1>
+</div>
+```
+
+CSS:
+
+```css
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+```

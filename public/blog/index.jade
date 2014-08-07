@@ -1,3 +1,7 @@
 != partial("../../partials/_header")
 .container
   h1 Blog
+.container720
+  - var post = public._data;
+  - post.yield = partial("test");
+  != partial("_decorator", post)
