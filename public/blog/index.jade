@@ -1,7 +1,13 @@
-!= partial("../../partials/_header")
+- var articles = []
+for article, slug in public.blog._data
+  if article.date
+    - article.slug = slug
+    - articles.push(public.blog._data[slug])
+
 .container
   h1 Blog
 .container720
-  - var post = public._data;
-  - post.yield = partial("test");
-  != partial("_decorator", post)
+  for article in articles
+    ul
+      li
+        a(href="/blog/#{ article.slug }") #{ article.title }

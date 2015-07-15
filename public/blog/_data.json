@@ -1,5 +1,10 @@
 {
   "test": {
-    "title": "Sample Blog Post"
+    "title": "Sample Blog Post",
+    "date": "2015-02-15"
+  },
+  "test2": {
+    "title": "Anothe post",
+    "date": "2015-10-15"
   }
 }
